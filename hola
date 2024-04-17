@@ -1,0 +1,4 @@
+n=1
+m=2
+s=n+m
+print (s)
