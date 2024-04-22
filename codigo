@@ -42,3 +42,42 @@ if __name__ == '__main__':
     <p>Esta es una página web generada por Flask y enlazada con Python.</p>
 </body>
 </html>
+-----------------------------------------------------------------
+#Este es el nuevo con un intento de imagen
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz Python</title>
+    <style>
+        body {
+            background-color: #0addbade; /* Cambia este valor al color deseado */
+        }
+        h1 {
+            position: relative; /* Establece la posición relativa */
+            left: 88%; /* Desplaza el h1 hacia la derecha en relación con su posición original */
+            transform: translateX(-50%); /* Centra horizontalmente el h1 */
+            margin-top: 250px; /* Añade espacio verticalmente para h1 */
+        }
+        body {
+        p {
+            position: relative; /*Establace la posicion relativa para p*/
+            Left: 100%; /* Desplaza p hacia la derecha en relacion con su posicion original*/
+            transform: translateX(-60%); /*Centra horizontalmente el h1*/
+            margin-top: 200px; /*Añade espacio verticalmente para h1*/
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Esta es nuestra pagina para la receta</h1>
+    <p>Esta es una página web generada por Flask y enlazada con Python.</p>
+</body>
+<MAP name="Imagen_Hamburguesa">
+    <AREA shape="rect" coords="1,1,75,46" href="índice.htm">
+    <AREA shape="rect" coords="76,1,136,46" href="intro.htm">
+</MAP>
+<IMG src="amborguesa.png" usemap="Imagen_Hamburguesa">
+</html>
