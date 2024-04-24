@@ -10,3 +10,7 @@
 - https://github.com/google/generative-ai-docs/blob/main/site/en/tutorials/python_quickstart.ipynb
 
 - https://ai.google.dev/tutorials/quickstart?hl=es-419
+
+# HTML:
+- Insertar imagenes desde la web: (full) URL in the src attribute:
+<img src="url completo" alt="texto que describe lo que hay"> style="width:128px;height:128px;">
