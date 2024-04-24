@@ -13,7 +13,16 @@
 
 # HTML:
 - Insertar imagenes desde la web: (full) URL in the src attribute:
-<img src="url completo" alt="texto que describe lo que hay"> style="width:128px;height:128px;">  style=tamaño;
+<img src="url completo" alt="texto que describe lo que hay"> style="width:128px;height:128px;"> 
+
+- Para mover la imagen de izq o derecha al texto:
+FORMA=
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+
 
 - Insertar imagen desde la web como fondo: (full) URL in the src attribute:
   para que no se repita la imagen y abarque la pantalla completa:
