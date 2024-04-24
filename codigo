@@ -90,3 +90,20 @@ body {
 
 #imagen:https://i.pinimg.com/originals/7d/63/b6/7d63b6cbb7541eef010018abcbae98fa.jpg
 
+
+
+
+
+<html>
+<body>
+
+<h2>Image as a Link</h2>
+
+<p>The image is a link. You can click on it.</p>
+
+<a href="default.asp">
+<img src="https://media.giphy.com/media/82BWYKUhBrt4Y/giphy.gif" alt="HTML tutorial" style="width:100%;height:100%px;">
+</a>
+
+</body>
+</html>
