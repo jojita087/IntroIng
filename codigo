@@ -81,3 +81,12 @@ if __name__ == '__main__':
 </MAP>
 <IMG src="amborguesa.png" usemap="Imagen_Hamburguesa">
 </html>
+
+<style>
+body {
+  background-image: url('https://i.pinimg.com/originals/7d/63/b6/7d63b6cbb7541eef010018abcbae98fa.jpg');
+}
+</style>
+
+#imagen:https://i.pinimg.com/originals/7d/63/b6/7d63b6cbb7541eef010018abcbae98fa.jpg
+
