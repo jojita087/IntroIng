@@ -36,5 +36,7 @@ body {
 }
 </style>
 
+- para tener el titulo del cuadro se debe ocupar <label for="lname">Cualquier titulo:</label><br>
+- para ingresar un cuadro que pida información al usuario se debe ocupar <input type="text" id="lname">
 # Spoonacular
 - Página [Spoonacular](https://spoonacular.com/food-api/console#Profile)
