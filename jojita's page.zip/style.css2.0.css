@@ -76,36 +76,62 @@ ul li.active a{
 
 .title2{
     position:absolute;
-    top: 15%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
 
 .title2 h1{
     color:#fff;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .title4{
     position:absolute;
-    top: 15%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
 
 .title4 h1{
     color:#fff;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .title5{
     position:absolute;
-    top: 15%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
 
 .title5 h1{
     color:#fff;
-    font-size: 70px;
+    font-size: 65px;
 }
+.title6 {
+    position:absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.title6 h1{
+    color:#fff;
+    font-size: 65px;
+}
+
+
+.body label{
+    display:inline;
+    margin-top: 90%;
+    margin-left: 45%;
+
+}
+.wrapper{
+    padding: 10px 10%;
+}
+.carda{
+    padding: 50px 0;
+}
+
+
