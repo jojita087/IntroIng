@@ -121,17 +121,66 @@ ul li.active a{
 }
 
 
-.body label{
-    display:inline;
-    margin-top: 90%;
-    margin-left: 45%;
+.body{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    background: whitesmoke;
+    align-items: center;
+}
+
+.container{
+    display:flex;
+}
+
+.card{
+    top:30%;
+    height: 300px;
+    margin: 180px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.img{
+    height: 200px;
+    width: 150px;
+    border-radius: 3px;
+}
+
+.intro{
+    height: 200px;
+    width: 300px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 230px;
+    background:rgb(27,27,27,.5);
+    color: #fff
+}
+
+h1{
+    margin: 10px;
+    font-size:40px;
 
 }
-.wrapper{
-    padding: 10px 10%;
+
+p{
+    font-size: 100px;
+    margin:10px;
+    visibility: hidden;
+    opacity: 0;
 }
-.carda{
-    padding: 50px 0;
+
+.card :hover{
+    cursor: pointer;
 }
+
+.card:hover .intro{
+    height:220px;
+    bottom:240px;
+    background:gray;
+
+}
+
 
 
