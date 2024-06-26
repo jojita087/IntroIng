@@ -23,6 +23,7 @@ Para ejecutar el código antes debemos instalar las siguientes bibliotecas
 pip install spoonacular
 pip install googletrans==4.0.0-rc1
 ```
+Todos los archivos de NoDoubt deben estar guardados en la misma carpeta.
 
 
 # Tut Github:
