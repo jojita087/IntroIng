@@ -2,11 +2,17 @@
 * No Doubt:
 + Contiene los siguientes archivos del proyecto:
   - index-2.html: Se accede a la página web.
+    
   - Inspiración.html: Contiene la extensión de la pestaña 'Inspiración', donde se encuentran sugerencias de recetas chilenas más populares como sugerencia.
+    
   - modosDeUso.html: Contiene la extensión de la pestaña 'Modos de Uso', donde se explica el paso a paso para utilizar nuestra página.
+    
   - quienes_somos.html: Contiene la extensión de la pestaña '¿Quiénes somos?', donde se visualizan los creadores del proyecto.
+    
   - recetas.html: Contiene la extensión de la pestaña 'Recetas', donde se ingresan los ingredientes por el usuario.
+    
   - app: Contiene el código de python donde está hecha la interfaz con la api de Spoonacular, la cual está enlazada en la extensión de 'Recetas'.
+    
   - style.css2.0.css: Contiene todo el diseño, colores, posiciones, tamaños del cada contenido de las extensiones.
     
 
