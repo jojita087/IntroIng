@@ -15,7 +15,14 @@
     
   - style.css2.0.css: Contiene todo el diseño, colores, posiciones, tamaños del cada contenido de las extensiones.
     
-
+# Spoonacular
+- Página [Spoonacular](https://spoonacular.com/food-api/console#Profile)
+# Cómo ejecutar el código
+Para ejecutar el código antes debemos instalar las siguientes bibliotecas
+```
+pip install spoonacular
+pip install googletrans==4.0.0-rc1
+```
 
 
 # Tut Github:
@@ -60,11 +67,3 @@ body {
 
 - para tener el titulo del cuadro se debe ocupar <label for="lname">Cualquier titulo:</label><br>
 - para ingresar un cuadro que pida información al usuario se debe ocupar <input type="text" id="lname">
-# Spoonacular
-- Página [Spoonacular](https://spoonacular.com/food-api/console#Profile)
-# Cómo ejecutar el código
-Para ejecutar el código antes debemos instalar las siguientes bibliotecas
-```
-pip install spoonacular
-pip install googletrans==4.0.0-rc1
-```
