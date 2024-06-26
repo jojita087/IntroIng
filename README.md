@@ -1,3 +1,16 @@
+#Carpeta del proyecto:
+* No Doubt:
++ Contiene los siguientes archivos del proyecto:
+  - index-2.html: 
+  - Inspiración.html:
+  - modosDeUso.html:
+  - quienes_somos.html:
+  - recetas.html:
+  - style.css2.0.css:
+    
+
+
+
 # Tut Github:
 
 - Wiki Github [Proyecto Alejandro](https://github.com/alecacerestel/ProyectoPdi)
