@@ -3,7 +3,7 @@
 + Contiene los siguientes archivos del proyecto:
   - index-2.html: Se accede a la página web.
     
-  - Inspiración.html: Contiene la extensión de la pestaña 'Inspiración', donde se encuentran sugerencias de recetas chilenas más populares como sugerencia.
+  - Inspiración.html: Contiene la extensión de la pestaña 'Sugerencias', donde se encuentran sugerencias de recetas chilenas más populares como sugerencia.
     
   - modosDeUso.html: Contiene la extensión de la pestaña 'Modos de Uso', donde se explica el paso a paso para utilizar nuestra página.
     
