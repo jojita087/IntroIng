@@ -26,6 +26,13 @@ pip install googletrans==4.0.0-rc1
 Todos los archivos de NoDoubt deben estar guardados en la misma carpeta.
 
 
+# Referencias:
+• Tutorial de canal PRAROZ en Youtube:
+https://youtu.be/M5JJxdrCvJQ?si=QgQR58db3HXAVPwd
+
+• Imagen de fondo:
+
+
 # Tut Github:
 
 - Wiki Github [Proyecto Alejandro](https://github.com/alecacerestel/ProyectoPdi)
