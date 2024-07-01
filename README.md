@@ -32,7 +32,7 @@ https://youtu.be/M5JJxdrCvJQ?si=QgQR58db3HXAVPwd
 
 • Imagen de fondo: https://media.glamour.com/photos/572b5f69384856e44ad8376e/master/w_960,c_limit/advice-cooking-mom.jpg
 
-- Tutorial recetas youtube: https://www.youtube.com/@silvanacocina
+-Tutorial recetas youtube: https://www.youtube.com/@silvanacocina
 
 
 # Tut Github:
