@@ -1,21 +1,17 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     font-family: Century;
-
 }
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://media.glamour.com/photos/572b5f69384856e44ad8376e/master/w_960,c_limit/advice-cooking-mom.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://media.glamour.com/photos/572b5f69384856e44ad8376e/master/w_960,c_limit/advice-cooking-mom.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
-    min-height: 100px;
-
 }
 
-
-ul{
+ul {
     float: right;
     list-style-type: lower-latin;
     margin-top: 30px;
@@ -24,164 +20,125 @@ ul{
     font-size: 25px;
 }
 
-ul li{
+ul li {
     display: inline-block;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: aliceblue;
     padding: 5px 20px;
     border: 1px solid transparent;
-    transition: 0.5 ease;
+    transition: 0.5s ease;
 }
 
 ul li a:hover {
-    background-color:#fff;
-    color:#000;
-}
-
-ul li.active a{
     background-color: #fff;
     color: #000;
-
 }
 
-.title{
-    position:absolute;
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+.title {
+    position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%,-50%)
-
+    transform: translate(-50%,-50%);
 }
 
-.title h1{
+.title h1 {
     color: #fff;
-    font-size:70px;
-
+    font-size: 70px;
 }
 
-.subtitle{
-    position:absolute;
+.subtitle {
+    position: absolute;
     top: 60%;
-    left:60%;
-    transform: translateX(-60%)
-
+    left: 60%;
+    transform: translateX(-60%);
 }
 
-.subtitle h2{
-    color:aliceblue;
+.subtitle h2 {
+    color: aliceblue;
     font-size: 33px;
 }
 
-.title2{
-    position:absolute;
+.title2, .title4, .title5 {
     top: 23%;
+    position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%);
 }
 
-.title2 h1{
-    color:#fff;
+.title2 h1, .title4 h1, .title5 h1 {
+    color: #fff;
     font-size: 65px;
+    margin: 0;
 }
 
-.title4{
-    position:absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-}
-
-.title4 h1{
-    color:#fff;
-    font-size: 65px;
-}
-
-.title5{
-    position:absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-}
-
-.title5 h1{
-    color:#fff;
-    font-size: 65px;
-}
-.title6 {
-    position:absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-}
-.title6 h1{
-    color:#fff;
-    font-size: 65px;
-}
-
-
-.body{
-    display:flex;
+.body {
+    display: flex;
     justify-content: center;
     height: 100vh;
-    background: whitesmoke;
+    background: transparent;
     align-items: center;
 }
 
-.container{
-    display:flex;
+.container {
+    display: flex;
 }
 
-.card{
-    top:30%;
+.card {
+    top: 30%;
     height: 300px;
     margin: 180px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
 }
 
-.img{
+.img {
     height: 200px;
     width: 150px;
     border-radius: 3px;
 }
 
-.intro{
+.intro {
     height: 200px;
     width: 300px;
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
     bottom: 230px;
-    background:rgb(27,27,27,.5);
-    color: #fff
+    background: rgb(27, 27, 27, .5);
+    color: #fff;
 }
 
-h1{
+h1 {
     margin: 10px;
-    font-size:40px;
-
+    font-size: 40px;
 }
 
-p{
+p {
     font-size: 100px;
-    margin:10px;
+    margin: 10px;
     visibility: hidden;
     opacity: 0;
 }
 
-.card :hover{
+.card:hover {
     cursor: pointer;
 }
 
-.card:hover .intro{
-    height:220px;
-    bottom:240px;
-    background:gray;
-
+.card:hover .intro {
+    height: 220px;
+    bottom: 240px;
+    background: crimson;
 }
-.text h1 {
+
+.texto h1 {
     position: absolute;
     top: 50%;
     left: 43%;
@@ -189,7 +146,7 @@ p{
     margin: 10px;
     color: #fff
 }
-.text h2{
+.texto h2{
     position: absolute;
     top: 50%;
     left: 22%;
@@ -197,7 +154,7 @@ p{
     margin: 10px;
     color: #fff
 }
-.text h3{ 
+.texto h3{ 
     position: absolute;
     top: 50%;
     left: 64%;
@@ -208,8 +165,8 @@ p{
 .box{
     position: absolute;
     top: 50%;
-    left: 20%;
-    width: 300px;
+    left: 21%;
+    width: 270px;
     height: 50px;
     padding: 10px;
     border: 4px solid rgb(255, 255, 255);
@@ -219,8 +176,8 @@ p{
 .box2{
     position: absolute;
     top: 50%;
-    left: 41%;
-    width: 300px;
+    left: 42%;
+    width: 270px;
     height: 50px;
     padding: 10px;
     border: 4px solid rgb(255, 255, 255);
@@ -230,8 +187,8 @@ p{
 .box3{
     position: absolute;
     top: 50%;
-    left: 62%;
-    width: 300px;
+    left: 63%;
+    width: 270px;
     height: 50px;
     padding: 10px;
     border: 4px solid rgb(255, 255, 255);
@@ -251,6 +208,97 @@ p{
     left: 27%;
     font-size: 20px;
 }
+
+.recetas-form {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    width: 80%;
+    margin: 10px, 0; 
+}
+
+.recetas-form label {
+    color: #fff;
+    font-size: 24px;
+}
+
+.subtitulo {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#recetas-form {
+    text-align: center;
+}
+
+#ingredientes, #recetas-form input[type="submit"] {
+    margin: 10px 0;
+}
+
+#ingredientes {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#recetas-form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#contenedor-resultados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#detalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#detalles h3, #detalles h2, #detalles p{
+   text-align: center; 
+}
+
+#detalles ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#detalles ul li::before {
+    content: "- ";
+    padding-right: 5px;
+}
+
+#detalles h3 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.resultados {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.spinner-border {
+    color: #fff;
+}
+
+.receta {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
 .recetas{
     color: #fff
 }
@@ -266,36 +314,15 @@ p{
     font-size: 20px;
 }
 
-.recetas-form{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+.receta h3 {
+    color: #fff;
 }
 
-.recetas-form label{
-    color: #fff;
-    font-size: 40px;
-}
-
-.subtitulo {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-}
-
-.resultados {
-    color: #fff;
-
-}
-
-.spinner-border {
-    color: #fff;
+.receta button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .document {
