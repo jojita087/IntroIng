@@ -1,7 +1,7 @@
 # Carpeta del proyecto final:
 * No Doubt:
 + Contiene los siguientes archivos del proyecto:
-  - index-2.html: Se accede a la página web.
+  - index.html: Se accede a la página web.
     
   - Inspiración.html: Contiene la extensión de la pestaña 'Sugerencias', donde se encuentran sugerencias de recetas chilenas más populares como sugerencia.
     
@@ -35,7 +35,8 @@ https://youtu.be/M5JJxdrCvJQ?si=QgQR58db3HXAVPwd
 
 • Tutorial recetas youtube: https://www.youtube.com/@silvanacocina
 
-
+# Creadores:
+Josefa Castillo, Vicente Vidal, Ángel González
 # Tut Github:
 
 - Wiki Github [Proyecto Alejandro](https://github.com/alecacerestel/ProyectoPdi)
